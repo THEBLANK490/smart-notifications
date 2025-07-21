@@ -28,4 +28,8 @@ A Django-based backend for sending user notifications via in-app, mock email, an
   python manage.py migrate
   python manage.py createsuperuser
 
+5. Run celery and celery beat on two different terminals
+  celery -A smartnotify beat --loglevel=info
+  celery -A smartnotify worker --loglevel=info --pool=solo
+
 
