@@ -1,0 +1,1 @@
+from smartnotify.settings.base import * #

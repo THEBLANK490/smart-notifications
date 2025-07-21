@@ -1,0 +1,4 @@
+notifyenv/
+.env
+celerybeat-schedule*
+__pycache__/
